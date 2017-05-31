@@ -120,6 +120,42 @@
     <Content Include="Global.asax" />
     <Content Include="libraries\bootstrap\js\core.min.js" />
     <Content Include="libraries\bootstrap\styles\core.min.css" />
+    <Content Include="libraries\durandal\css\durandal.css" />
+    <Content Include="libraries\durandal\img\icon.png" />
+    <Content Include="libraries\durandal\img\ios-startup-image-landscape.png" />
+    <Content Include="libraries\durandal\img\ios-startup-image-portrait.png" />
+    <Content Include="libraries\durandal\js\activator.js" />
+    <Content Include="libraries\durandal\js\activator.min.js" />
+    <Content Include="libraries\durandal\js\app.js" />
+    <Content Include="libraries\durandal\js\app.min.js" />
+    <Content Include="libraries\durandal\js\binder.js" />
+    <Content Include="libraries\durandal\js\binder.min.js" />
+    <Content Include="libraries\durandal\js\composition.js" />
+    <Content Include="libraries\durandal\js\composition.min.js" />
+    <Content Include="libraries\durandal\js\events.js" />
+    <Content Include="libraries\durandal\js\events.min.js" />
+    <Content Include="libraries\durandal\js\plugins\dialog.js" />
+    <Content Include="libraries\durandal\js\plugins\dialog.min.js" />
+    <Content Include="libraries\durandal\js\plugins\history.js" />
+    <Content Include="libraries\durandal\js\plugins\history.min.js" />
+    <Content Include="libraries\durandal\js\plugins\http.js" />
+    <Content Include="libraries\durandal\js\plugins\http.min.js" />
+    <Content Include="libraries\durandal\js\plugins\observable.js" />
+    <Content Include="libraries\durandal\js\plugins\observable.min.js" />
+    <Content Include="libraries\durandal\js\plugins\router.js" />
+    <Content Include="libraries\durandal\js\plugins\router.min.js" />
+    <Content Include="libraries\durandal\js\plugins\serializer.js" />
+    <Content Include="libraries\durandal\js\plugins\serializer.min.js" />
+    <Content Include="libraries\durandal\js\plugins\widget.js" />
+    <Content Include="libraries\durandal\js\plugins\widget.min.js" />
+    <Content Include="libraries\durandal\js\system.js" />
+    <Content Include="libraries\durandal\js\system.min.js" />
+    <Content Include="libraries\durandal\js\transitions\entrance.js" />
+    <Content Include="libraries\durandal\js\transitions\entrance.min.js" />
+    <Content Include="libraries\durandal\js\viewEngine.js" />
+    <Content Include="libraries\durandal\js\viewEngine.min.js" />
+    <Content Include="libraries\durandal\js\viewLocator.js" />
+    <Content Include="libraries\durandal\js\viewLocator.min.js" />
     <Content Include="libraries\font-awesome\css\font-awesome.css" />
     <Content Include="libraries\font-awesome\css\font-awesome.min.css" />
     <Content Include="libraries\font-awesome\fonts\fontawesome-webfont.svg" />
@@ -263,12 +299,22 @@
     <Content Include="libraries\kendo\styles\textures\stripe6.png" />
     <Content Include="libraries\kendo\styles\textures\transparency.png" />
     <Content Include="libraries\kendo\styles\textures\transtexture.png" />
-    <Content Include="scripts\jquery-3.2.1.js" />
-    <Content Include="scripts\jquery-3.2.1.min.js" />
-    <Content Include="scripts\jquery-ui-1.11.4.js" />
-    <Content Include="scripts\jquery-ui-1.11.4.min.js" />
-    <Content Include="scripts\knockout-3.4.2.js" />
-    <Content Include="scripts\knockout-3.4.2.min.js" />
+    <Content Include="libraries\jquery\jquery-3.2.1.js" />
+    <Content Include="libraries\jquery\jquery-3.2.1.min.js" />
+    <Content Include="libraries\jquery\jquery-mobile-1.4.5.js" />
+    <Content Include="libraries\jquery\jquery-mobile-1.4.5.min.js" />
+    <Content Include="libraries\jquery\jquery-ui-1.11.4.js" />
+    <Content Include="libraries\jquery\jquery-ui-1.11.4.min.js" />
+    <Content Include="libraries\knockout\knockout-3.4.2.js" />
+    <Content Include="libraries\knockout\knockout-3.4.2.min.js" />
+    <Content Include="libraries\require\almond-custom.js" />
+    <Content Include="libraries\require\almond-custom.min.js" />
+    <Content Include="libraries\require\r.js" />
+    <Content Include="libraries\require\r.min.js" />
+    <Content Include="libraries\require\require.js" />
+    <Content Include="libraries\require\require.min.js" />
+    <Content Include="libraries\require\text.js" />
+    <Content Include="libraries\require\text.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -283,12 +329,13 @@
     <Folder Include="Controllers\" />
     <Folder Include="libraries\bootstrap\less\" />
     <Folder Include="Models\" />
+    <Folder Include="scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scripts\json2.min.js" />
+    <Content Include="libraries\json\json2.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="libraries\font-awesome\fonts\fontawesome-webfont.eot" />
