@@ -318,14 +318,15 @@
     <Content Include="libraries\require\require.min.js" />
     <Content Include="libraries\require\text.js" />
     <Content Include="libraries\require\text.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -412,6 +413,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Punchout.Web.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="styles\default\default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\HelloWorld\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\HelloWorld\Web.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

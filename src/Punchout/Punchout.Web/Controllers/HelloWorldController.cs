@@ -6,9 +6,9 @@
     {
         //
         // GET: /HelloWorld/
-        public string Index()
+        public ActionResult Index()
         {
-            return "This is my very first <b>controller!<b>";
+            return View();
         }
 
         //
